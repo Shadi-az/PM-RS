@@ -1,97 +1,142 @@
-# User Manual
+# Password Manager Application - User Manual
 
-This manual provides instructions on how to use the Password Manager application.
+Welcome to the Password Manager application! This manual provides a step-by-step guide on how to use all of the features effectively. Please consult the `requirements.txt` file for all necessary libraries to run this application.
 
-## 1. First-Time Setup
+---
 
-If this is your first time using the application, you will be guided through a setup process.
+## 🛠 First-Time Setup
 
-- **Set Master Password:** You will be prompted to set a master password. This password is crucial for accessing your password vault and other features. Choose a strong, memorable password.
-- **Confirm Password:** Re-enter your master password to confirm.
-- **Show Password:** You can check this box to see the password you are typing.
-- **Submit:** Click submit to save your master password.
-- **Backup Key:** After setting your master password, a unique backup key will be generated. **It is extremely important to save this key in a secure location.** This key is needed to recover your account if you forget your master password.
-- **Copy to Clipboard:** Click this button to copy the backup key.
-- **Continue to Home:** Click this button to proceed to the home screen.
+If this is your first time using the application, you will be guided through a setup process:
 
-## 2. Login Screen
+1. **Read the Terms**  
+   You will be presented with terms that address privacy concerns. Consent is required to proceed.
 
-After the initial setup or upon subsequent launches, you will see the login screen.
+2. **Set Master Password**  
+   Choose a strong, memorable password. This will protect your vault and grant access to all features.
 
-- **Master Password:** Enter your master password.
-- **Show Password:** Check this box to reveal the password you are typing.
-- **Login:** Click to log in to the application.
-- **Forgot Password?:** Click this if you need to recover your master password using your backup key.
-- **Theme Toggle (🌓/🌞/🌙):** Click this button in the top-right corner to switch between light and dark themes.
+3. **Confirm Password**  
+   Re-enter your master password for confirmation.
 
-## 3. Home Screen
+4. **Submit**  
+   Save your master password.
 
-The home screen provides access to the mMLn features of the application.
+5. **Backup Key**  
+   A unique key will be generated. Save this key in a secure location — it's required for account recovery.
 
-- **Password Vault:** Click this button to go to the password vault where you can store and manage your passwords.
-- **Password Generator:** Click this button to access the password generator tool.
-- **Recommender System:** Click this button to use the password recommender system.
-- **Logout (❌):** Click this button in the top-left corner to log out and return to the login screen.
-- **Theme Toggle (🌓/🌞/🌙):** Click this button in the top-right corner to switch between light and dark themes.
+6. **Copy to Clipboard**  
+   Click to copy your backup key.
 
-## 4. Password Vault
+7. **Continue to Home**  
+   Click to proceed to the main home screen.
 
-The password vault allows you to securely store and retrieve your site passwords.
+---
 
-- **Site:** Enter the name of the website or service.
-- **Password:** Enter the password for the site.
-- **Last Updated:** You can manually select the last updated date using the calendar icon or check the "Use Current Time" box to automatically set it to the current date and time.
-- **Add Password:** Click to add the site and password to your vault.
-- **Password List:** Your saved passwords will be displayed in a scrollable list with columns for ID, Site, Password, Last Updated, and Status (indicating password strength/age).
-- **Selecting an Entry:** Click on a row in the list to select it. The selected row's ID will be shown below the list.
-- **Delete Entry:** Click this button to delete the selected password entry.
-- **Back to Home (←):** Click this button to return to the home screen.
-- **Logout (❌):** Click this button in the top-left corner to log out.
-- **Theme Toggle (🌓/🌞/🌙):** Click this button in the top-right corner to switch between light and dark themes.
+## 🖥 User Interface Interactions
 
-## 5. Password Generator
+- **Theme Toggle (🌞 / 🌙 / ⚙️)**: Top-right corner. Switch between light and dark mode.
+- **Logout (❌)**: Top-left corner. Logs you out.
+- **Back to Home (←)**: Returns to the home screen.
 
-This tool helps you create strong, random passwords.
+---
 
-- **Password Length:** Use the entry field to specify the desired length of the password.
-- **Character Options:** Check the boxes to include Uppercase Letters, Lowercase Letters, Numbers, and Special Characters in the generated password.
-- **Generate:** Click this button to generate a password based on your criteria.
-- **Generated Password Display:** The generated password will appear in the entry field.
-- **Copy:** Click this button to copy the generated password to your clipboard.
-- **Back to Home (←):** Click this button to return to the home screen.
-- **Logout (❌):** Click this button in the top-left corner to log out.
-- **Theme Toggle (🌓/🌞/🌙):** Click this button in the top-right corner to switch between light and dark themes.
+## 🔐 Login Screen
 
-## 6. Recommender System
+Displayed after setup or subsequent launches:
 
-This screen offers two types of password generation: ML-Generated and Memorable.
+- **Master Password**: Input your master password.
+- **Show Password**: Reveals typed password.
+- **Login**: Access the application.
+- **Forgot Password?**: Recover your master password using your backup key.
 
-- **ML-Generated Passwords:** Select this option to generate passwords using an ML model. Note that the first time you use this, the model may take a moment to initialize.
-- **Memorable Passwords:** Select this option to generate passwords that are easier to remember.
-- **Generate Password:** Click this button to generate a password based on the selected type.
-- **Generated Password Display:** The generated password will appear in the entry field.
-- **Copy:** Click this button to copy the generated password to your clipboard.
-- **Back to Home (←):** Click this button to return to the home screen.
-- **Logout (❌):** Click this button in the top-left corner to log out.
-- **Theme Toggle (🌓/🌞/🌙):** Click this button in the top-right corner to switch between light and dark themes.
+---
 
-## 7. Recovery Screen
+## 🏠 Home Screen
 
-Use this screen to reset your master password if you have forgotten it.
+The home screen provides access to core features:
 
-- **Enter Backup Key:** Enter the backup key that was provided during the initial setup.
-- **New Master Password:** Enter your desired new master password.
-- **Confirm New Password:** Re-enter your new master password.
-- **Show Password:** Check this box to reveal the passwords you are typing.
-- **Reset Password:** Click to reset your master password. A new backup key will be generated.
-- **Back to Login:** Click to return to the login screen.
+- **Password Vault**: Manage saved credentials.
+- **Password Generator**: Generate strong random passwords using the `secrets` library.
+- **Recommender System**: Use AI-powered recommendations for secure or memorable passwords.
 
-## 8. Backup Key Screen
+---
 
-This screen is displayed after the initial setup or after resetting your password.
+## 🗄 Password Vault
 
-- **Your Backup Key:** Your new backup key is displayed here.
-- **Copy to Clipboard:** Click to copy the key.
-- **Continue to Home:** Click to proceed to the home screen.
+Securely store and retrieve site passwords:
 
-Remember to keep your master password and backup key secure. If you lose both, you will not be able to access your password vault.
+- **Site**: Name of the website or service.
+- **Password**: Associated password.
+- **Last Updated**: Manually select or use the current time.
+- **Add Password**: Save the new entry.
+- **Password List**: View saved entries (columns: ID, Site, Password, Last Updated, Status).
+- **Selecting an Entry**: Click a row to select it. The selected ID is shown below.
+- **Delete Entry**: Remove the selected password.
+
+---
+
+## 🔑 Password Generator
+
+Create secure passwords with customization options:
+
+- **Password Length**: Desired character length.
+- **Character Options**: Include uppercase, lowercase, numbers, and special characters.
+- **Generate**: Create the password.
+- **Copy**: Copy to clipboard.
+
+---
+
+## 🤖 Recommender System
+
+Generate passwords using machine learning:
+
+- **AI-Generated Passwords**: Secure, ML-based generation. May take time to load initially.
+- **Memorable Passwords**: Easier to recall, but less secure.
+- **Generate Password**: Display the new password.
+- **Copy**: Copy to clipboard.
+
+---
+
+## 🔄 Recovery Screen
+
+Use this if you've forgotten your master password:
+
+1. **Enter Backup Key**  
+2. **New Master Password**  
+3. **Confirm New Password**  
+4. **Show Password**  
+5. **Reset Password**  
+   - A new backup key will be generated.
+6. **Back to Login**
+
+---
+
+## 🔐 Backup Key Screen
+
+Appears after setup or password reset:
+
+- **Your Backup Key**: Displayed for you to save.
+- **Copy to Clipboard**: Save the key.
+- **Continue to Home**
+
+---
+
+## ⚠️ Important Security Notes
+
+- **Keep your master password and backup key safe.**
+- **Losing both will result in loss of access to your vault.**
+
+---
+
+## 📦 Requirements
+
+Please refer to `requirements.txt` to install the necessary dependencies before running the application.
+
+---
+
+## 📄 License
+
+This project is provided for educational and personal use. Use at your own risk.
+
+---
+
+Feel free to contribute or report issues by opening an issue or pull request on this repository.
