@@ -1,7 +1,11 @@
 # Password Manager Application - User Manual
 
 Welcome to the Password Manager application! This manual provides a step-by-step guide on how to use all of the features effectively. Please consult the `requirements.txt` file for all necessary libraries to run this application.
-PS: This project was built as part of an educational chapter, research was made to maintain secure and modern practices. However, the software is NOT for public use, use at your own risk.
+
+> ⚠️ **Important Notice**:  
+> This project was built after relative research to implement secure and modern techniques.  
+> However, this software is **not intended for public or production use**. You may use it at your **own risk**.
+
 ---
 
 ## 🛠 First-Time Setup
