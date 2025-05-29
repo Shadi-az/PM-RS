@@ -1,12 +1,26 @@
 # Password Manager Application - User Manual
 
-Welcome to the Password Manager application! This manual provides a step-by-step guide on how to use all of the features effectively. Please consult the `requirements.txt` file for all necessary libraries to run this application.
+Welcome to the Password Manager application! This manual provides a quick over-view and a step-by-step guide on how to use all of the features effectively if needed (Expand details below). Please consult the `requirements.txt` file for all necessary libraries to run this application.
 
 > ⚠️ **Important Notice**:  
 > This project was built after relative research to implement secure and modern techniques.  
 > However, this software is **not intended for public or production use**. You may use it at your **own risk**.
 
 ---
+
+## 📘 Quick Overview
+
+- ✅ Set up a master password and backup key
+- 🔐 Log in securely with your credentials
+- 🗄 Manage and store your passwords in a secure vault
+- 🔑 Generate strong passwords
+- 🤖 Use AI to suggest secure or memorable passwords
+- 🔁 Recover your account with a backup key
+
+---
+
+<details>
+<summary>📖 Click to expand full user manual</summary>
 
 ## 🛠 First-Time Setup
 
@@ -129,6 +143,8 @@ Appears after setup or password reset:
 - **Keep your master password and backup key safe.**
 - **Losing both will result in loss of access to your vault.**
 
+</details>
+
 ---
 
 ## 📦 Requirements
@@ -139,7 +155,7 @@ Please refer to `requirements.txt` to install the necessary dependencies before 
 
 ## 📄 License
 
-This project is provided for educational and personal use. Use at your own risk.
+This project is provided for educational and personal use.
 
 ---
 
