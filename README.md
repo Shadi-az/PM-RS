@@ -1,13 +1,15 @@
-# Password Manager Application - User Manual
+# Password Manager & Recommender System
 
-Welcome to the Password Manager application! This manual provides a quick over-view and a step-by-step guide on how to use all of the features effectively if needed (Expand details below). Please consult the `requirements.txt` file for all necessary libraries to run this application.
+Hey ! Here is a quick over-view and a step-by-step guide on how to use all of the features effectively if needed (Expand details below). Please consult the `requirements.txt` file for all necessary libraries to run this application.
+
+This app allows you to store passwords, generate strong random passwords, and use the recommender system built using machine learning to generate strong inteliigent passwords OR a memorable password generation (Less secure)
 
 > ⚠️ **Important Notice**:  
 > This project was built after relative research to implement secure and modern techniques.  
-> However, this software is **not intended for public or production use**. You may use it at your **own risk**.
+> However, this software is provided **as-is** and is **not intended for public or production use**. You may use it at your **own risk**.
 
 ---
-
+![project-pm](https://github.com/user-attachments/assets/54151963-4af3-4501-bfc4-8197a4154a78)
 ## 📘 Quick Overview
 
 - ✅ Set up a master password and backup key
@@ -18,7 +20,7 @@ Welcome to the Password Manager application! This manual provides a quick over-v
 - 🔁 Recover your account with a backup key
 
 ---
-
+## 📄 User Manual
 <details>
 <summary>📖 Click to expand full user manual</summary>
 
@@ -147,16 +149,38 @@ Appears after setup or password reset:
 
 ---
 
-## 📦 Requirements
+## Prerequisites
 
-Please refer to `requirements.txt` to install the necessary dependencies before running the application.
+To install, follow these steps:
+
+Linux and macOS:
+```
+sudo git clone https://github.com/Shadi-az/PM-RS.git
+```
+Windows:
+```
+git clone https://github.com/Shadi-az/PM-RS.git
+```
+
+This software was built using python, tensorflow, sqlite.  
+Additionally, Here is a list of python libraries used:
+| Python Libraries | 
+| ------ | 
+| SQLite3 | 
+| Customtkinter | 
+| tkcalendar |
+| pyperclip | 
+| Pillow |
+| Cryptography |
 
 ---
 
-## 📄 License
+## ⚖️ License
+MIT 
+---
 
-This project is provided for educational and personal use.
+⚠️ **Important Notice**: This password manager is provided "as is", without warranty of any kind. Use it at your own risk. The author is not responsible for any data loss, security breaches, or other issues that may arise from using this software.
 
 ---
 
-Feel free to contribute or report issues by opening an issue or pull request on this repository.
+Feel free to contribute or report issues by opening an issue or pull request on this repository. You are more than free to use this to practice any of the tech used in it.
