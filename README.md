@@ -176,11 +176,10 @@ Additionally, Here is a list of python libraries used:
 ---
 
 ## ⚖️ License
+
 MIT 
----
-
-⚠️ **Important Notice**: This password manager is provided "as is", without warranty of any kind. Use it at your own risk. The author is not responsible for any data loss, security breaches, or other issues that may arise from using this software.
-
----
 
 Feel free to contribute or report issues by opening an issue or pull request on this repository. You are more than free to use this to practice any of the tech used in it.
+
+---
+
