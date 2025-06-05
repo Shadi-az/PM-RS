@@ -149,7 +149,7 @@ Appears after setup or password reset:
 
 ---
 
-## Prerequisites
+## 🛠️ Prerequisites
 
 To install, follow these steps:
 
