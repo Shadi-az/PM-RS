@@ -7,6 +7,8 @@ This app allows you to store passwords, generate strong random passwords, and us
 > ⚠️ **Important Notice**:  
 > This project was built after relative research to implement secure and modern techniques.  
 > However, this software is provided **as-is** and is **not intended for public or production use**. You may use it at your **own risk**.
+> 
+> The code has not undergone a deep detailed code review.
 
 ---
 ![project-pm](https://github.com/user-attachments/assets/54151963-4af3-4501-bfc4-8197a4154a78)
@@ -179,7 +181,7 @@ Additionally, Here is a list of python libraries used:
 
 MIT 
 
-Feel free to contribute or report issues by opening an issue or pull request on this repository. You are more than free to use this to practice any of the tech used in it.
+Feel free to contribute or report issues by forking or cloning the repo then opening an issue or pull request on this repository. You are more than free to use this to practice any of the tech used in it.
 
 ---
 
